@@ -1,0 +1,60 @@
+.content-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 0px;
+  max-height: fit-content;
+  position: relative;
+  margin-bottom: 0px;
+}
+.content-contact::after {
+  content: "";
+  background-image: url(/download.jpg);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+  margin-bottom: 0px;
+}
+
+.content-contact h2 {
+  padding-top: 0px;
+  font-family: var(--font2);
+  font-weight: bolder;
+  position: relative;
+  top:0px;
+  font-size: 35px;
+}
+
+.form-box, input , textarea, select{
+    padding: 5px;
+    margin: 12px;
+    font-size: 18px;
+
+}
+input{
+    width: 40vw;
+    border-radius: 4px;
+}
+textarea{
+    width: 40vw;
+    height: 70px;
+    border-radius: 4px;
+    border: 2px black solid;
+}
+select{
+    border: 2px black solid;
+    border-radius: 4px;
+    width: 40vw;
+}
+
+#splbtn{
+    width: 40vw;
+    position: relative;
+    left:14px;
+}
